@@ -1,4 +1,4 @@
-from models import Yeshuv, Knesset_22, Kalfi
+from app.models import Yeshuv, Knesset_22, Kalfi
 
 
 # foreign key knesset22 to yeshuv by yeshuv_sn

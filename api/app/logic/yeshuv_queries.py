@@ -1,7 +1,7 @@
 
 from app import db
 
-from models import  Yeshuv, YeshuvType
+from app.models import  Yeshuv, YeshuvType
 
 
 def query_yeshuv_sn_by_name(yeshuv_name: str) -> int:

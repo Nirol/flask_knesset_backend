@@ -1,6 +1,6 @@
 from typing import List
 
-from models import Kalfi
+from app.models import Kalfi
 
 
 def query_kalfi_metadata_all() -> List[Kalfi]:

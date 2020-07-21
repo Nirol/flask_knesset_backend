@@ -1,14 +1,15 @@
 from flask_sqlalchemy import get_debug_queries
-
-from exceptions import ValidationError
-import os
-from text_helper import combine_yeshuv_jsons
-from yeshuv import query_validate_yeshuv_exist_by_sn
-from . import api
-from kalfi_display import get_yeshuv_knesset_elections_data_json, get_yeshuv_kalfi_json
-from flask import  jsonify, current_app
 from app import db
-from models import  Yeshuv
+from ..exceptions import ValidationError
+import os
+from ..logic.text_helper import combine_yeshuv_jsons
+from ..database_queries.queries.yeshuv import  query_validate_yeshuv_exist_by_sn
+from . import api
+from ..logic.kalfi_display import get_yeshuv_knesset_elections_data_json, get_yeshuv_kalfi_json
+from flask import  jsonify, current_app
+
+from app.models import  Yeshuv
+
 
 
 @api.route('/yeshuvHebrewList', methods=['GET'])

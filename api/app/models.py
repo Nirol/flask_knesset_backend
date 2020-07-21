@@ -1,6 +1,6 @@
-from app import db
-from constants import KnessetVars, KNESSETS_LIST
 
+from app.logic.constants import KnessetVars, KNESSETS_LIST
+from app import db
 
 
 

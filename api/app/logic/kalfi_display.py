@@ -11,7 +11,7 @@ from queries.knesset22 import query_knesset22_kalfi_all, \
     query_knesset22_kalfi_top_n_by_voters, \
     query_knesset22_kalfi_bottom_n_voters, query_knesset_22_kalfi_count
 from constants import KalfiDisplayType
-from models import Kalfi, Knesset_22, YeshuvKnesset
+from app.models import Kalfi, Knesset_22, YeshuvKnesset
 import constants
 from queries.yeshuv_knesset import query_yeshuvknesset_by_sn
 from yeshuv_queries import query_yeshuv_type_by_sn

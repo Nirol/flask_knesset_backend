@@ -3,7 +3,7 @@
 import re
 
 from db_queries import query_kalfi_metadata_all
-from models import Kalfi
+from app.models import Kalfi
 
 
 def __clean_address_start_end_quotes(address):

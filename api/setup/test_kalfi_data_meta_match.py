@@ -6,7 +6,7 @@ from kalfi_display import __sort_kalfi_by_kalfi_num, __sort_kalfi_by_kalfi_num, 
     __sort_kalfi_by_kalfi_num, __sort_kalfi_by_kalfi_num, \
     __sort_kalfi_by_kalfi_num
 
-from models import Yeshuv, Kalfi, Knesset_22
+from app.models import Yeshuv, Kalfi, Knesset_22
 
 
 class TestKalfiMeta(unittest.TestCase):
